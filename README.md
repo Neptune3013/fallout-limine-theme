@@ -7,12 +7,22 @@ For v12 of Limine
 
 Note: This repo only contains additional theming elements and is not a replacement for Limine.conf. It is assumed that a working Limine bootloader is already set up.
 
+### CachyOS helper script
+
+On CachyOS, you can use the included helper script to apply the theme and keep local backups outside of the EFI system partition:
+
+```
+./install-fallout-limine-cachyos.sh
+```
+
+The script opens an interactive menu, backs up the current Limine files next to the script, supports Secure Boot hashes when needed, and can restore the original CachyOS Limine config from its saved backup.
+
 ### Download the packages:
 ```
 git clone https://github.com/Neptune3013/fallout-limine-theme.git
 ```
 ### Copy files to Boot direcory:
-NOTE: Make a snapshot beforehand in case you mess up.
+NOTE: Back up the existing files in your boot directory first. On many systems, `/boot` is a separate EFI system partition and may not be included in filesystem snapshots.
 
 The following requires Admin mode and assumes the boot directory is /boot.
 
