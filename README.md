@@ -25,7 +25,7 @@ NOTE: Back up the existing files in your boot directory first. On many systems, 
 
 The following requires Admin mode and assumes the boot directory is /boot.
 
-- Copy background.png and PHXEGA8.F14 to Boot directory.
+- Copy background.png (or the compressed .jpg) and PHXEGA8.F14 to Boot directory.
 - Copy the contents of Limine.txt into the beginning of Limine.conf in Boot directory. (it is safer to make a backup of the original limine.conf)
 
 ### Edit Limine.conf
