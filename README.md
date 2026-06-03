@@ -5,7 +5,7 @@ For v12 of Limine
 Note: This repo only contains additional theming elements and is not a replacement for Limine.conf. It is assumed that a working Limine bootloader is already set up.
 
 ## CachyOS helper script
-Thank you [Darayavaush-84](https://github.com/Darayavaush-84) for making this script.
+Thank you [Darayavaush-84](https://github.com/Darayavaush-84) for making this script. Last tested by @Darayavaush on Limine v12.3 and worked without any issues.
 
 On CachyOS, you can use the included helper script to apply the theme and keep local backups outside of the EFI system partition:
 
