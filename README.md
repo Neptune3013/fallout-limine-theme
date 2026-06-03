@@ -39,7 +39,7 @@ Change the `wallpaper:...` directory to .jpg if using the compressed version.
 
 It should look something like this:
 ```
-wallpaper: boot():/background.jpg#1654643541984165196841356181561+8463516846516
+wallpaper: boot():/background.png#1654643541984165196841356181561+8463516846516
 
 term_font: boot():/PHXEGA8.F14#164684651984685416849684165198646541651616168465
 ```
