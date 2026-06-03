@@ -31,7 +31,7 @@ The following requires Admin mode and assumes the boot directory is /boot.
 ### Edit Limine.conf
 The following are specific to v12 of Limine (Last tested with v12.3)
 #### If not using Secure Boot
-Change the `wallpaper:...` directory to .png if using the High resolution version. 
+Change the `wallpaper:...` directory to .png if using the High resolution version. No other changes necessary.
 
 #### If Using Secure Boot
 - Run `sudo b2sum /boot/background.jpg` and append the output followed by a "#" after `wallpaper: boot():/background.jpg` in Limine.conf (assuming one is using the low res .jpg)
