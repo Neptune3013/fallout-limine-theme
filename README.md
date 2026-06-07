@@ -34,7 +34,7 @@ The following are specific to v12 of Limine (Last tested with v12.3)
 Change the `wallpaper:...` directory to .png if using the High resolution version. No other changes necessary.
 
 #### If Using Secure Boot
-- Run `sudo b2sum /boot/background.jpg` and append the output followed by a "#" after `wallpaper: boot():/background.jpg` in Limine.conf (change it to .png if using the high-res. png image)
+- Run `sudo b2sum /boot/background.jpg` and append the output followed by a "#" after `wallpaper: boot():/background.jpg` in Limine.conf (change it to .png if using the high-res. .png image)
 - Run `sudo b2sum /boot/PHXEGA8.F14` and append the output followed by a "#" after `term_font: boot():/PHXEGA8.F14` in Limine.conf
 
 It should look something like this:
